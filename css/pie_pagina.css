@@ -1,0 +1,163 @@
+body {
+  font-family: "Allerta", sans-serif;
+  margin: 0;
+}
+table {
+  width: 100%;
+}
+th {
+  background: #273b47;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+td {
+  padding: 20px;
+}
+table,
+th,
+td {
+  border: 5px solid #273b47;
+  border-collapse: collapse;
+}
+
+input,
+textarea {
+  outline: 0px;
+}
+
+input:focus,
+textarea:focus {
+  background: lightgray;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #1c3643 0, #273b47 25%, #1e5372);
+  padding: 0px 15px 0px 15px;
+}
+.button {
+  border-radius: 12px;
+  margin-left: 15px;
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  background: #4aec73;
+}
+.button:hover {
+  background: rgb(17, 119, 17);
+}
+.menu li {
+  display: inline-block;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.menu {
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  right: 0;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  border-top: 3px solid rgb(48, 175, 48);
+}
+
+.contenedor {
+  width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+.background {
+  background-image: url(../imagen/fondo.jpg);
+  background-size: cover;
+  padding: 250px;
+  margin: 0px;
+  padding-top: 30px;
+}
+.contenido {
+  text-align: center;
+}
+
+.footer {
+  background: linear-gradient(90deg, #1c3643 0, #273b47 25%, #1e5372);
+  margin: 0px;
+  padding: 5px;
+  position: fixed;
+  height: 30%;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+}
+
+.contacto {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contacto img {
+  display: block;
+}
+
+.contacto strong {
+  display: block;
+}
+
+.contacto a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
+}
+
+.footer .contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.formulario {
+  display: flex;
+  width: 400px;
+  color: white;
+}
+
+.col1,
+.col2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col1 {
+  margin-right: 15px;
+}
+.intereses {
+  font-size: 12px;
+}
+
+.formulario label,
+.sexo,
+.intereses {
+  margin-bottom: 10px;
+}
+.sexo {
+  margin-top: 10px;
+}
+.col2 {
+  align-items: flex-start;
+}
+.col2 .button {
+  margin-top: 15px;
+}
